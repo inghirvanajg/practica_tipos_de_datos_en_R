@@ -1,0 +1,57 @@
+# En este ejercicio vamos a:
+# 1. Realizar operaciones aritméticas en la consola
+# 2. Asignar variables a un script en RStudio, y 
+# 3. Identificar distintos tipos de datos en R
+
+#######################################
+# practica 1: operaciones aritmeticas #
+#######################################
+
+# primer acertijo de redes sociales
+1+1-1*(1+1-1)/1+1*(-1)
+
+
+#######################################
+# practica 2: asignación de variables #
+#######################################
+
+# asigna los numeros a cada fruta
+
+mango <- 12
+pera <- 13
+fresa <- 15 
+
+
+# resuelve el complejo acertijo
+resultado1 <- mango + pera
+resultado2 <- pera + fresa
+resultado3 <- fresa + mango 
+
+# imprime el resultado por pantalla
+resultado1
+resultado2 
+resultado3
+
+##################################
+# practica 3: tipos de variables #
+##################################
+
+# observa la clase del resultado
+
+class(resultado1)
+# crea una variable con algún nombre
+name <- "Hirvana Juarez"
+
+# observa la clase del nombre
+class(name)
+
+# es 1 mayor que 2
+1 > 2
+
+# cual es la clase de esto
+class(1 > 2)
+
+# suma nombre con resultado
+name + resultado  
+#saldrá un error porque la variable name es de tipo character y 
+#la variable resultado es de tipo numeric
